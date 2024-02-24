@@ -11,7 +11,7 @@ export default function Header() {
             <span className="text-slate-700">-a-Car</span>
           </h1>
         </Link>
-        <form className="bg-slate-100 p-2 rounded-lg flex items-center w-52 sm:w-64">
+        <form className="bg-slate-100 p-2 rounded-lg flex items-center w-36 sm:w-56">
           <input
             type="text"
             placeholder="Search..."

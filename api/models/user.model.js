@@ -15,6 +15,10 @@ const userSchema = new mongoose.Schema({
         type: String,
         require: true,
     },
+    avatar: {
+        type: String,
+        default: "https://pixabay.com/vectors/blank-profile-picture-mystery-man-973460/"
+    },
 }, { timestamps: true });   // add two info in database: time of creation and update of user
 
 //mongodb automatically set User for one or more user
